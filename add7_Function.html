@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Add7 Function</title>
+    </head>
+    <body>
+        <script>
+
+            function add7 (a)
+            {
+                let result = a + 7;
+                return result;
+            }
+
+            function multiply (b,c)
+            {
+                let m = b * c;
+                return m;
+            }
+
+            function capitalizeFirstLetter(string)
+            {
+                return string.charAt(0).toUpperCase() + string.slice(1);
+
+            }
+
+            /* Another Version
+
+            function capitalize(s)
+            {
+                return s[0].toUpperCase() + s.slice(1);
+
+            } 
+
+            */
+            
+            function lastLetter(s)
+            {
+                let lastChar = s.substr(s.length - 1);
+                return lastChar;
+
+            }
+
+            console.log(add7(3));
+            console.log(multiply(4,5));
+            console.log(capitalizeFirstLetter('david'));
+            console.log(lastLetter('abcd'));
+ 
+        </script>
+    </body>
+</html>
